@@ -1,0 +1,32 @@
+﻿@inherits LayoutComponentBase
+
+<div class="sidebar">
+    <NavMenu />
+</div>
+
+<div class="main">
+    <div class="top-row px-4">
+        <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+    </div>
+
+    <div class="content px-4">
+
+    </div>
+    <div class="aabb">
+
+        <div class="sa">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" width="150" height="150"><defs><style>
+                                                                                                             .cls-1 {
+                                                                                                                 fill: url(#linear-gradient)
+                                                                                                             }
+                                                                                                         </style><linearGradient id="linear-gradient" x1="28" x2="123" y1="75" y2="75" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff" /><stop offset="1" /></linearGradient></defs><path id="_4" d="M123 31v88H28" class="cls-1" /></svg>
+        </div>
+        @* The below item doesn't appear *@
+        <div class="abc">
+             <svg class="c1icon"><use href="images/spriteTest.svg#aaa" /></svg>
+        </div>
+    </div>
+    <div class="content px-4">
+        @Body
+    </div>
+</div>

@@ -1,0 +1,30 @@
+﻿<svg>
+    <symbol id="aaa" viewBox="0 0 150 150">
+        <defs>
+            <style>
+                .cls-1 {
+                    fill: url(#linear-gradient)
+                }
+            </style>
+            <linearGradient id="linear-gradient" x1="26" x2="121" y1="76" y2="76" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#fff" />
+                <stop offset="1" />
+            </linearGradient>
+        </defs>
+        <path id="_4" d="M26 32h95v88H26z" class="cls-1" />
+    </symbol>
+    <symbol id="ddd" viewBox="0 0 150 150">
+        <defs>
+            <style>
+                .cls-1 {
+                    fill: url(#linear-gradient)
+                }
+            </style>
+            <linearGradient id="linear-gradient" x1="28" x2="118" y1="79" y2="79" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#fff" />
+                <stop offset="1" />
+            </linearGradient>
+        </defs>
+        <circle id="_4" cx="73" cy="79" r="45" class="cls-1" />
+    </symbol>
+</svg>
